@@ -11,7 +11,7 @@
 
 #docker run --rm  --platform linux/amd64  -p 3838:3838 huiwan5867/lymphmutsig:20250220
 
-docker build --platform linux/amd64 -t huiwan5867/lymphmutsig:v1 .
+docker build --platform linux/amd64 -t huiwan5867/lymphmutsig2026:latest .
 docker image ls
-docker push huiwan5867/lymphmutsig:v1
-docker run --rm -p 3838:3838 huiwan5867/lymphmutsig:v1
+docker push huiwan5867/lymphmutsig2026:latest
+docker run --rm -p 3838:3838 huiwan5867/lymphmutsig2026:latest
