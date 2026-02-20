@@ -1,2 +1,14 @@
-# Activate renv only when present (e.g. local dev); Docker image has no renv/
-if (file.exists("renv/activate.R")) source("renv/activate.R")
+# renv: 
+/renv.lock
+app/renv/
+renv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
