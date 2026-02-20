@@ -1,14 +1,2 @@
-# renv: 只保留 app/renv.lock（Docker 用）；忽略根目录 renv.lock 和本地 library
-/renv.lock
-app/renv/
-renv/
-
-# R
-.Rhistory
-.RData
-.Rproj.user
-*.Rproj
-
-# OS
-.DS_Store
-Thumbs.db
+# Activate renv only when present (e.g. local dev); Docker image has no renv/
+if (file.exists("renv/activate.R")) source("renv/activate.R")
