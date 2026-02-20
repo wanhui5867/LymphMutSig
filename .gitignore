@@ -1,0 +1,13 @@
+# renv (keep renv.lock; ignore local library)
+app/renv/
+renv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
